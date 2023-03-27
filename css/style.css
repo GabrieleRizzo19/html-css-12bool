@@ -1,0 +1,20 @@
+section{
+    margin-bottom: 2em;
+}
+
+[class*="col-"]{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    height: 2rem;
+}
+
+.nested{
+    padding: 0.25rem;
+}
+
+.row .row .flex{
+    background-color: green;
+    border: 1px solid blue;
+    height: 1.5rem;
+}
